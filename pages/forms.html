@@ -14,14 +14,13 @@
 </header>
 
 <nav>        
-  <a title="Главная страница" href="../index.html">Главная страница</a>
-  <a title="Интересные факты" href="../pages/facts.html">Интересные факты</a>
-  <a title="Контакты" href="../pages/contacts.html">Контакты</a>
-  <a title="Заполнить форму" href="../pages/forms.html">Заполнить форму</a>
+  <a class="menu" title="Главная страница" href="../index.html">Главная страница</a>
+  <a class="menu" title="Интересные факты" href="../pages/facts.html">Интересные факты</a>
+  <a class="menu" title="Контакты" href="../pages/contacts.html">Контакты</a>
+  <a class="menu" title="Заполнить форму" href="../pages/forms.html">Заполнить форму</a>
 </nav>  
 <section>
 	<h1 class="top"><b>Форма с личными данными</b></h1>
-	<br>
    <div class="canvas">
       <canvas id="myCanvas"  width="300px" height="80px" style="border: 2px solid #a7a3a3; background-color:#eee;">Ваш браузер не поддерживает Canvas</canvas>
    </div>
@@ -33,13 +32,6 @@
     context.strokeStyle = "green"; 
     context.strokeText("ПРИВЕТ МИР !!!!", 65, 50);
    </script>
-  
-  <h4 class="grt">Нажмите, что бы повернутся на гавную страницу</h4>
-   <a href="../index.html" title="Нажмите, что бы повернутся на гавную страницу">
-    <svg width= "50" height = "50">
-        <circle cx ="25" cy ="25" r ="20" stroke="green" stroke-width="4" fill="yellow"/>
-    </svg>
-  </a>
 
    <form action="" method="get"><br><br>
 	Имя:<br>
@@ -51,8 +43,8 @@
 		<option value="Республика молдавия">Республика молдавия</option>
 		<option value ="Россия">Россия</option>
 		<option selected value="Украина" >Украина</option>
-    <option value="Белорусь">Белорусь</option>
-    <option value="Чехия">Чехия</option>
+      <option value="Белорусь">Белорусь</option>
+      <option value="Чехия">Чехия</option>
 	</select>
 	<br><br>
    Интересы:<br>
@@ -75,6 +67,13 @@
    <input type="submit" value="Отправить">
    <br><br><br>
    </form>
+
+   <h4 class="grt">Нажмите, что бы повернутся на гавную страницу</h4>
+   <a href="../index.html" title="Нажмите, что бы повернутся на гавную страницу">
+    <svg width= "50" height = "50">
+        <circle cx ="25" cy ="25" r ="20" stroke="green" stroke-width="4" fill="yellow"/>
+    </svg>
+  </a>
 </section> 
 
 <footer>
