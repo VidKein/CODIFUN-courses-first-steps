@@ -72,11 +72,24 @@ iframe{
 .grt{
 	display: inline;
 }
+textarea{
+	width: 100%;
+	margin: 0 0 1.5em 0;
+}
 
-textarea{width: 100%;}
+.formName{
+	margin: 0.5em 0;
+	text-align: left;
+}
+input[type=text], [type=email], [type=password]{
+	width: 50%;
+	padding: 0.3em;
+}
+input[type=date], select, option{padding: 0.3em;}
 
 @media screen and (max-width:995px){
 	.column {width: 100%;}
+	input[type=text], [type=email], [type=password]{width: 100%;}
 }
 .menu{font-size: 1em;}
 @media screen and (max-width: 660px){
@@ -86,4 +99,5 @@ textarea{width: 100%;}
 		flex-direction: column;
 		align-items: stretch;	
 	}
+	input[type=text], [type=email], [type=password]{width: 100%;}
 }

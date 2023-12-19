@@ -33,47 +33,53 @@
     context.strokeText("ПРИВЕТ МИР !!!!", 65, 50);
    </script>
 
-   <form action="" method="get"><br><br>
-	Имя:<br>
-	<input type="text" name="name"><br><br>
-	Фамилия:<br>
-	<input type="text" name="surname"><br><br>
-	Дата рождения:<input type="date" name="birthday"><br><br>
-	Страна:<select name="country" size="1">
+   <form action="" method="get">
+   
+   <p class="formName">Имя:</p>
+	<input type="text" name="name">   
+
+   
+   <p class="formName">Фамилия:</p>
+	<input type="text" name="surname">
+   
+   <p class="formName">Дата рождения:</p>
+	<input type="date" name="birthday">
+
+   <p class="formName">Страна:</p>
+   <select name="country" size="1">
 		<option value="Республика молдавия">Республика молдавия</option>
 		<option value ="Россия">Россия</option>
 		<option selected value="Украина" >Украина</option>
       <option value="Белорусь">Белорусь</option>
       <option value="Чехия">Чехия</option>
 	</select>
-	<br><br>
-   Интересы:<br>
-   <input type="checkbox" name="HTML">HTML<br>
-   <input type="checkbox" name="Javasvript">Javasvript<br>
-   <input type="checkbox" name="PHP">PHP<br>
-   <input type="checkbox" name="CSS">CSS<br>
-   <br><br>
-   E-mail:<input name="email" type="email">
-   <br><br>
-   Password:<input name="password" type="password">
-   <br><br>
-   Как часто хотите получать увидомления на электронную почту?<br>
-   <input name="question" type="radio">Ежедневно <br>
-   <input name="question" type="radio">Раз в месяц <br>
-   <input name="question" type="radio">Никогда <br><br>
-   Ваше мнение о Codifun: <br>	
-   <textarea name="opinion" cols="50" rows="8">Напишите нам....</textarea>
-   <br><br><br>
+
+   <p class="formName">Интересы:</p>
+      <label class="radio-label"><input type="checkbox" name="HTML">HTML</label>
+      <label class="radio-label"><input type="checkbox" name="Javasvript">Javasvript</label>
+      <label class="radio-label"><input type="checkbox" name="PHP">PHP</label>
+      <label class="radio-label"><input type="checkbox" name="CSS">CSS</label>  
+
+   <p class="formName">E-mail:</p>
+   <input name="email" type="email">
+
+   <p class="formName">Password:</p>
+   <input name="password" type="password">
+
+   <p class="formName">Как часто хотите получать увидомления на электронную почту?</p>
+   <label class="radio-label"><input name="question" type="radio">Ежедневно</label> 
+   <label class="radio-label"><input name="question" type="radio">Раз в месяц</label> 
+   <label class="radio-label"><input name="question" type="radio">Никогда</label> 
+   
+
+  <p class="formName">Ваше мнение о Codifun:</p>
+   <textarea name="opinion" cols="50" rows="8" placeholder="Напишите нам...."></textarea>
+   
+
    <input type="submit" value="Отправить">
-   <br><br><br>
+   
    </form>
 
-   <h4 class="grt">Нажмите, что бы повернутся на гавную страницу</h4>
-   <a href="../index.html" title="Нажмите, что бы повернутся на гавную страницу">
-    <svg width= "50" height = "50">
-        <circle cx ="25" cy ="25" r ="20" stroke="green" stroke-width="4" fill="yellow"/>
-    </svg>
-  </a>
 </section> 
 
 <footer>
